@@ -107,16 +107,17 @@ article.hero, .hobbies>article>ul{
 
 
 }*/
-*{
+body, html{
     margin: 0;
     padding: 0;
-   
     box-sizing: border-box;
 }
-
-body{
-    position: relative;
+body, .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 header, footer{
     position: sticky;
     position: -webkit-sticky;
