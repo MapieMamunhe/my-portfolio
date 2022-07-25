@@ -104,3 +104,18 @@ div.hero{
     margin: auto;
     line-height: 35px;
 }
+.languagesAndFrameworks .title{
+    font-size: 25px;
+}
+.languagesAndFrameworks dl dt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:#707070;
+}
+.languagesAndFrameworks dl dd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.languagesAndFrameworks dl dt, .languagesAndFrameworks dl dd{
+    margin-bottom: 8px;
+}
