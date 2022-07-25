@@ -44,6 +44,31 @@ footer{
      background-color: #fff;
     color:#09090E;
 }
+footer ul{
+    height: 38px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 17px;  
+    outline: #09090E solid 1px;
+}
+footer ul a{
+    color:black;
+    text-decoration: none;
+}
+.btn{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.btn:hover{
+    color: #707070;
+    background-color: #09090E;
+}
 
 #skills, #contact{
     background-color: #09090E;
@@ -118,4 +143,38 @@ div.hero{
 }
 .languagesAndFrameworks dl dt, .languagesAndFrameworks dl dd{
     margin-bottom: 8px;
+}
+/*CONTACT*/
+#contact h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    font: 30px;
+}
+#contact h3{
+    margin: 0 0 43px 0;
+    font-size: 30px;
+    color:#707070;
+    font-weight: normal;
+    text-align: center;
+}
+#contact .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0;
+}
+.links div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+   
+}
+.links div span a{
+    font-style: italic;
 }
