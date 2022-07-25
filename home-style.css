@@ -29,6 +29,9 @@ header{
     top: 0;
     height: 104px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header h3{
     display: flex;
@@ -54,7 +57,7 @@ footer{
     text-align: center;
     margin: 43px auto;
 }
-#profile{
+#about, #projects{
    margin:auto 17px;
 }
 div.hero{
@@ -69,16 +72,35 @@ div.hero{
     display: flex;
     flex-direction: column;
    line-height: 30px;
-  
 }
 
 #myProfilePic{
     height: 150px;
     width: 133px;
-  
-
 }
 .hero figure{
     margin: 0;
     padding: 0 ;
+}
+.hobbies article ul{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+}
+/*skills*/
+.habilities{
+    font-size: 25px;
+    margin: auto 17px;
+}
+.habilities ul {
+    padding:auto;
+    margin: auto;
+    line-height: 35px;
 }
