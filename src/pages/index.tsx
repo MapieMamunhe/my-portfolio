@@ -11,6 +11,10 @@ interface InterfaceProject {
   id: number;
   name: string;
   description: string;
+  links?: {
+    github?: string;
+    website?: string;
+  };
 }
 export default function Home() {
   const [projects, setProjects] = useState<InterfaceProject[]>([
@@ -60,7 +64,6 @@ export default function Home() {
             <Link
               key={item.id}
               href={"#" + item.name}
-              className="click-me "
               onClick={() => setCurrentProject(item)}
             >
               <li className="click-me ">{item.name}</li>
