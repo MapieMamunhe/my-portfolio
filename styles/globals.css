@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  color: white;
+}
+body {
+  background-color: #431c98;
+}
+:root {
+  --fs-title: 36px;
+  --fs-text: 16px;
+  --color-primary: #663cc1;
+  --color-secondary: #431c98;
+  --color-terceary: #fff;
+  --color-accent: #3cafc1;
+}
+
+@layer components {
+  .title-text {
+    font-size: var(--fs-title);
+    color: var(--color-terceary);
+    font-weight: 700;
+  }
+  .click-me {
+    border-style: none none solid none;
+    border-width: 2px;
+    padding-left: 16px;
+    width: max-content;
+    border-color: var(--color-accent);
+  }
+  .click-me:hover {
+    background-color: var(--color-primary);
+    height: max-content;
+    border-radius: 5px;
+    width: calc(60%);
+  }
+  .btn {
+    background-color: var(--color-accent);
+    width: 68px;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+}
