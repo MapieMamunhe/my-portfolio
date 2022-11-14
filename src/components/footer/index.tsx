@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import gt from "../../../assets/images/github.svg";
-import gm from "../../../assets/images/gmail.svg";
-import lk from "../../../assets/images/linkedin.svg";
-import wp from "../../../assets/images/whatsapp.svg";
+
+const GT = "/assets/images/github.svg";
+const GM = "/assets/images/gmail.svg";
+const LK = "/assets/images/linkedin.svg";
+const WP = "/assets/images/whatsapp.svg";
 // import { Container } from './styles';
 
 const Footer: React.FC = () => {
@@ -16,22 +17,22 @@ const Footer: React.FC = () => {
       <ul className="flex flex-row justify-around px-12 my-6">
         <li>
           <Link href="#">
-            <Image src={gt} style={styles.svgDefaults} alt="github svg" />
+            <Image src={GT} width={32} height={32} alt="github svg" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <Image src={lk} style={styles.svgDefaults} alt="Linkedin svg" />
+            <Image src={LK} width={32} height={32} alt="Linkedin svg" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <Image src={gm} style={styles.svgDefaults} alt="Gmail svg" />
+            <Image src={GM} width={32} height={32} alt="Gmail svg" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <Image src={wp} style={styles.svgDefaults} alt="Whatsapp svg" />
+            <Image src={WP} width={32} height={32} alt="Whatsapp svg" />
           </Link>
         </li>
       </ul>
