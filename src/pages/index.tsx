@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/header/index";
 import Separator from "../components/separator";
-import myPic from "../../assets/images/profile.jpg";
 import Footer from "../components/footer";
 import { useState } from "react";
 import { isTemplateExpression } from "typescript";
 
+const MY_PIC = "/assets/images/profile.jpg";
 interface InterfaceProject {
   id: number;
   name: string;
@@ -37,6 +37,7 @@ export default function Home() {
   const [currentProject, setCurrentProject] = useState<InterfaceProject | null>(
     null
   );
+
   return (
     <>
       <Header />
@@ -50,11 +51,7 @@ export default function Home() {
       </section>
       <Separator />
       <div className="h-60 my-6 overflow-clip rounded-lg ">
-        <Image
-          className=" scale-150 relative right-14 top-[100px] bg-blue-500 bg-blend-color"
-          src={myPic}
-          alt="My profile picture"
-        />
+        <Image width={900} height={500} src={MY_PIC} alt="My profile picture" />
       </div>
       <Separator />
       <section className="mx-4 py-9">
