@@ -5,8 +5,8 @@ import HamburgerMenu from "../hamburgerMenu";
 
 const Header: React.FC = () => {
   return (
-    <ul className="flex flex-row justify-between h-20  bg-[#663cc1] w-full items-center px-[16px]">
-      <li>Mapie Mamunhe</li>
+    <ul className="flex flex-row justify-between h-20  bg-[#663cc1] w-full items-center">
+      <li className="px-[16px]">Mapie Mamunhe</li>
       <li>
         <HamburgerMenu />
       </li>
