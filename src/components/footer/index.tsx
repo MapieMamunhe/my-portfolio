@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           </Link>
         </li>
         <li className="link">
-          <Link href="#">
+          <Link href="https://www.linkedin.com/in/MapieMamunhe">
             <Image src={LK} width={32} height={32} alt="Linkedin svg" />
           </Link>
         </li>
