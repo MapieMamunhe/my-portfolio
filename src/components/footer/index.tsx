@@ -15,22 +15,22 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <ul className="flex flex-row justify-around px-12 my-6">
-        <li>
-          <Link href="#">
+        <li className="link">
+          <Link href="https://github.com/MapieMamunhe">
             <Image src={GT} width={32} height={32} alt="github svg" />
           </Link>
         </li>
-        <li>
+        <li className="link">
           <Link href="#">
             <Image src={LK} width={32} height={32} alt="Linkedin svg" />
           </Link>
         </li>
-        <li>
+        <li className="link">
           <Link href="#">
             <Image src={GM} width={32} height={32} alt="Gmail svg" />
           </Link>
         </li>
-        <li>
+        <li className="link">
           <Link href="#">
             <Image src={WP} width={32} height={32} alt="Whatsapp svg" />
           </Link>
