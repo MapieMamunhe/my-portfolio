@@ -26,12 +26,12 @@ const Footer: React.FC = () => {
           </Link>
         </li>
         <li className="link">
-          <Link href="#">
+          <Link href="mailto:mmamunhe@gmail.com?subject=Portfolio Check&body=I've Seen Your portfolio and would like to have an interview with you, contact me as soon as possible">
             <Image src={GM} width={32} height={32} alt="Gmail svg" />
           </Link>
         </li>
         <li className="link">
-          <Link href="#">
+          <Link href="https://wa.me/message/QYS2B4FCGRELB1">
             <Image src={WP} width={32} height={32} alt="Whatsapp svg" />
           </Link>
         </li>
